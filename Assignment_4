@@ -1,0 +1,59 @@
+
+1. What exactly is []?
+Ans: Empty List
+
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Ans: spam[2]=’hello’
+
+Let's pretend the spam includes the list ['a', 'b', 'c', 'd'] for the next three queries.
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+Ans: d
+
+4. What is the value of spam[-1]?
+Ans: d
+
+5. What is the value of spam[:2]?
+Ans: ['a','b']
+
+Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+Ans: 1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+Ans: bacon=[3.14, 'cat,' 11, 'cat,' True, 99]
+
+8. How does bacon.remove('cat') change the look of the list in bacon?
+Ans: bacon=[3.14, 11, 'cat,' True]
+
+9. What are the list concatenation and list replication operators?
+Ans: concatenation: an operation where the elements of one list are added at the end of another list.
+     List replication: Given a list, repeat each element in the list amount of times. e.g. Rep(list(x),5)
+     This will create 5 replication of that list.
+
+10. What is difference between the list methods append () and insert ()?
+Ans: append () appends the value at the end of the list. While insert () allows you to insert a value at indexing point.
+
+11. What are the two methods for removing items from a list?
+Ans: pop () and remove ()
+
+12. Describe how list values and string values are identical.
+Ans: Both are ordered collection of characters.
+
+13. What's the difference between tuples and lists?
+Ans: List is mutable (value can be change) and tuple is immutable (value can’t be change).
+
+14. How do you type a tuple value that only contains the integer 42?
+Ans: (42,)
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Ans: Lets take a list list1=[22,44,67] and tuple t1=(36,74,67)
+     list(t1)            # this will convert tuple into list
+     tuple(list1)    # this will convert list into tuple
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+Ans:  Refrences to the list values
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans: copy() create reference to original object. If you change copied object - you change the original object.
+     deepcopy() creates new object and does real copying of original object to new one. Changing new deepcopied object doesn't affect original object.
+
