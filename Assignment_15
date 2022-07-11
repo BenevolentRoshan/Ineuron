@@ -46,9 +46,4 @@ def genPrimes():
 output = genPrimes()
 for ele in range(5):
     print(next(output))
-2
-3
-5
-7
-11
 
